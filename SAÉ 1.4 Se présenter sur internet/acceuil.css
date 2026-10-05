@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fond.webp'); /* Image de fond */
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    height: 87vh; /* Prendre toute la hauteur de la fenêtre */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style pour le menu déroulant */
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000; /* Fond noir */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(206, 8, 166); /* Ombre légère */
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff; /* Texte blanc */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    background-color: #000000; /* Fond noir pour chaque lien */
+}
+
+.dropdown-content a:hover {
+    color: #ffffff; /* Texte blanc au survol */
+    background-color: #333333; /* Fond gris foncé au survol */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    background-color: #000000; /* Fond noir pour le bouton */
+    color: #ffffff; /* Texte blanc pour le bouton */
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #333333; /* Fond gris foncé au survol du bouton */
+}
+
+/* Style pour la section de présentation vide */
+.presentation {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* Style pour la photo de visage centrée */
+.profile-photo {
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Rendre l'image ronde */
+    object-fit: cover; /* Ajuster l'image pour couvrir tout l'espace */
+}
+
+/* Style pour les images cliquables */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 150px; /* Ajuste la taille des images */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+    box-shadow: 4px 4px 50px 4px rgb(0, 13, 255); /* Ombre légère */
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Agrandissement au survol */
+}
