@@ -29,8 +29,8 @@ Chaque page a sa propre feuille de style CSS dans le même dossier.
 
 Télécharger le dépôt (**Code** › **Download ZIP**), puis ouvrir `site/acceuil.html` dans un navigateur. La vidéo de la page Vidéo n’est pas incluse dans le dépôt.
 
-Ce site de première année a depuis été remplacé par mon [portfolio actuel](https://wonderful-chebakia-f83e9d.netlify.app/).
+Ce site de première année a depuis été remplacé par mon [portfolio actuel](https://bastien-lorenzi.netlify.app/).
 
 ---
 
-<sub>Bastien Lorenzi · BUT Réseaux et Télécommunications, parcours cybersécurité · [Portfolio](https://wonderful-chebakia-f83e9d.netlify.app/#projets) · [Profil GitHub](https://github.com/LORENZI-Bastien)</sub>
+<sub>Bastien Lorenzi · BUT Réseaux et Télécommunications, parcours cybersécurité · [Portfolio](https://bastien-lorenzi.netlify.app/#projets) · [Profil GitHub](https://github.com/LORENZI-Bastien)</sub>
